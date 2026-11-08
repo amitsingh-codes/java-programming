@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class FromWhereToWhere {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("where to ?");
+
+        int end = Integer.valueOf(scanner.nextLine());
+
+        System.out.println("where from ?");
+
+        int start = Integer.valueOf(scanner.nextLine());
+
+
+        for(int i = start; i <=end; i++){
+            System.out.println(i);
+        }
+    }
+}

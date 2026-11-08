@@ -1,0 +1,8 @@
+
+The following files have been resolved:
+   junit:junit:jar:4.12:test[36m -- module junit[0;1;33m (auto)[m
+   fi.helsinki.cs.tmc:edu-test-utils:jar:0.4.2:test[36m -- module edu.test.utils[0;1;33m (auto)[m
+   org.powermock:powermock-classloading-objenesis:jar:2.0.2:test[36m -- module powermock.classloading.objenesis[0;1;33m (auto)[m
+   org.powermock:powermock-api-easymock:jar:2.0.2:test[36m -- module powermock.api.easymock[0;1;33m (auto)[m
+   org.powermock:powermock-module-junit4-rule:jar:2.0.2:test[36m -- module powermock.module.junit4.rule[0;1;33m (auto)[m
+

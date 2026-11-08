@@ -1,0 +1,10 @@
+.tmc/
+target/
+*.class
+tempCodeRunnerFile.java
+.vscode/
+.DS_Store
+Thumbs.db
+.tmcproject.json
+.tmcproject.yml
+course_config.toml
