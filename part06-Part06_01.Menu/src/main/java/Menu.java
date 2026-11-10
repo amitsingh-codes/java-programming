@@ -9,5 +9,22 @@ public class Menu {
         this.meals = new ArrayList<>();
     }
 
-    // implement the required methods here
+    public void addMeal(String meal){
+        if (this.meals.contains(meal)) {
+            // System.out.println("meal already exists");
+        }else{
+            this.meals.add(meal);
+            // System.out.println(meal + "added to the menu.");
+        }
+    }
+
+    public void printMeals(){
+        for (String meal : this.meals) {
+            System.out.println(meal);
+        }
+    }
+
+    public void clearMenu(){
+        this.meals.clear();
+    }
 }
